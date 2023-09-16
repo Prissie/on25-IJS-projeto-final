@@ -10,7 +10,6 @@
 * [Cobertura de Testes](#cobertura-de-testes)
 * [Para Rodar](#para-rodar)
 * [Melhorias para o projeto](#melhorias-para-o-projeto)
-* [Conclusão](#conclusão)
 * [Autora](#autora)
 
 ## **Descrição do Projeto**
@@ -22,19 +21,10 @@ Bem como as boas práticas, através da refatoração e código limpo para facil
 
 Linguagens utilizadas:
 
-JavaScript
+JavaScript<br>
 Jest
 
-
 <br>
-
-##  **Funcionalidades**
-
-- `Funcionalidade 1`: Cadastro da nutricionista
-- `Funcionalidade 2`: Cadastro do paciente
-- `Funcionalidade 3`: Criação de uma agenda para a nutricionista com a finalidade de verificar se tem horários disponíveis para a consulta no dia desejado pelo paciente
-- `Funcionalidade 4`: Marcação da consulta
-
 
 ## Tecnologias utilizadas:
 | Ferramenta | Descrição |
@@ -44,7 +34,6 @@ Jest
 | `npm` | Gerenciador de pacotes.|
 | `jest` | Framework de testes em JavaScript.|
 
-
 <br>
 
 
@@ -52,32 +41,32 @@ Jest
 O projeto é constituído da pasta principal src que contém todos arquivos de código, testes unitários e imagens conforme abaixo:
 
 <p align="center">
-  <img width="100" src="./src/assets/img_src.png">
+  <img width="100" src="./assets/img_src.png">
 </p>
 <br>
 
 ## Destaque de algumas classes
 Validação de tipos, mensagem de erro
 <p align="center">
-  <img width="600" src="./src/assets/classe_Comida.png">
+  <img width="600" src="./assets/classe_Comida.png">
 </p>
 
 Herança
 <p align="center">
-  <img width="600" src="./src/assets/classe_Pedido.png">
+  <img width="600" src="./assets/classe_Pedido.png">
 </p>
 
 
 ## Cobertura de testes
 <p align="center">
-  <img width="600" src="./src/assets/Coverage_all_files.png">
+  <img width="600" src="./assets/Coverage_all_files.png">
 </p>
 
 <p align="center">
-  <img width="600" src="./src/assets/Coverage.png">
+  <img width="600" src="./assets/Coverage.png">
 </p>
 <p align="center">
-  <img width="600" src="./src/assets/Coverage_summary.png">
+  <img width="600" src="./assets/Coverage_summary.png">
 </p>
     
 
@@ -88,9 +77,7 @@ Herança
 3. Para executar:  **$ npm run start**
 4. Coverage: **$ npm run coverage**
 <br>
-<br>
-      
-     
+           
 ## Melhorias para o projeto
 Dentre os pontos mapeados:
 

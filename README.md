@@ -40,34 +40,24 @@ Jest
 ## Organização do Projeto
 O projeto é constituído da pasta principal src que contém todos arquivos de código, testes unitários e imagens conforme abaixo:
 
-<p align="center">
-  <img width="100" src="src/assets/img_src.png">
-</p>
+![Imagem1](src/assets/img_src.png)
 <br>
 
 ## Destaque de algumas classes
 Validação de tipos, mensagem de erro
-<p align="center">
-  <img width="600" src="src/assets/classe_Comida.png">
-</p>
+![Imagem2](src/assets/classe_Comida.png)
+
 
 Herança
-<p align="center">
-  <img width="600" src="src/assets/classe_Pedido.png">
-</p>
+![Imagem3](src/assets/classe_Pedido.png)
 
 
 ## Cobertura de testes
-<p align="center">
-  <img width="600" src="src/assets/Coverage_all_files.png">
-</p>
+![Imagem4](src/assets/Coverage_all_files.png)
 
-<p align="center">
-  <img width="600" src="src/assets/Coverage.png">
-</p>
-<p align="center">
-  <img width="600" src="src/assets/Coverage_summary.png">
-</p>
+![Imagem5](src/assets/Coverage.png)
+
+![Imagem6](src/assets/Coverage_summary.png)
     
 
 ## Para rodar

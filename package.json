@@ -1,14 +1,22 @@
 {
   "name": "on25-ijs-projeto-final",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "{reprograma} projeto final",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --coverageReporters='text-summary'",
+    "coverage" : "npm run test -- --coverage"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prissie/on25-IJS-projeto-final.git"
+  },
+  "author": "Priscila Baer Vieira",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prissie/on25-IJS-projeto-final"
+  },
+  "homepage": "https://github.com/Prissie/on25-IJS-projeto-final#readme",
   "devDependencies": {
-    "jest": "^29.6.4"
+    "jest": "^29.7.0"
   }
 }

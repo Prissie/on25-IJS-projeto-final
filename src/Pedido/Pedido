@@ -1,0 +1,18 @@
+const { Comida } = require('../Comida/Comida');
+
+class Pedido extends Comida {
+    quantidade;
+    preco;
+
+    constructor(comida, quantidade, preco){
+        super(comida.id, comida.nome, comida.categoria, comida.descricao);
+        this.quantidade = quantidade;
+        this.preco = preco;
+    }
+
+    calcularPedido(quantidade, preco){
+        return this.quantidade * this.preco;
+    }    
+}
+
+module.exports = { Pedido };
